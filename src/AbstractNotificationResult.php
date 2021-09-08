@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Notification\Common;
 
 abstract class AbstractNotificationResult implements NotificationResultInterface
