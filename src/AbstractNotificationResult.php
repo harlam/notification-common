@@ -2,7 +2,7 @@
 
 namespace Notification\Common;
 
-abstract class AbstractNotificationResult
+abstract class AbstractNotificationResult implements NotificationResultInterface
 {
     protected bool $isSuccess;
     protected ?string $detailedMessage;
