@@ -1,0 +1,20 @@
+{
+  "name": "harlam/notification-common",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Notification\\Common\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "harlam",
+      "email": "harlamov.nikolay@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "symfony/validator": "^5.3"
+  }
+}
