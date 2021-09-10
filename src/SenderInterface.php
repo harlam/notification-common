@@ -8,5 +8,5 @@ interface SenderInterface
 {
     public function getConfiguration(): ?object;
 
-    public function send(): NotificationResultInterface;
+    public function send(object $message): NotificationResultInterface;
 }
