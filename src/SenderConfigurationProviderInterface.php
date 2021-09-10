@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Notification\Common;
 
-interface SenderConfigurationInterface
+interface SenderConfigurationProviderInterface
 {
     public function getConfiguration(): ?object;
 }
