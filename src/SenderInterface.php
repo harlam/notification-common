@@ -6,7 +6,5 @@ namespace Notification\Common;
 
 interface SenderInterface
 {
-    public function getConfiguration(): ?object;
-
     public function send(object $message): NotificationResultInterface;
 }
